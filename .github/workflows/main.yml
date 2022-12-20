@@ -68,7 +68,7 @@ jobs:
           azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
           action: deploy
           service-name: spring-app-one
-          app-name: demo-api-one
+          app-name: action-demo-one
           deployment-name: default
           container-registry: apiimage.azurecr.io
           registry-username: ${{ secrets.REGISTRY_USERNAME }}
