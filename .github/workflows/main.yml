@@ -73,6 +73,6 @@ jobs:
           container-registry: apiimage.azurecr.io
           registry-username: ${{ secrets.REGISTRY_USERNAME }}
           registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-          container-image: ${{ github.sha }}
+          container-image: sampleapp:${{ github.sha }}
 
 
