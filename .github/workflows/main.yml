@@ -71,7 +71,7 @@ jobs:
           app-name: demo-api-one
           deployment-name: default
           container-registry: apiimage.azurecr.io
-          registry-username: ${{ env.REGISTRY_USERNAME }}
+          registry-username: ${{ secrets.REGISTRY_USERNAME }}
           registry-password: ${{ secrets.REGISTRY_PASSWORD }}
           container-image: ${{ github.sha }}
 
