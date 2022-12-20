@@ -29,9 +29,6 @@ jobs:
       - name: Build with Maven
         run: ./maven clean install
 
-      - name: Build with Gradle
-        run: ./gradlew build
-
       - name: 'Build and push image'
         uses: azure/docker-login@v1
         with:
