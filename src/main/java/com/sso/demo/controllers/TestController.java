@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping(value = "hello", produces = "application/json")
     public String HelloWorld() {
-        return "Hello world";
+        return "Hello world Demo";
     }
 }
